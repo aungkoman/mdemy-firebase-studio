@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { BookOpenText } from 'lucide-react';
@@ -11,16 +12,16 @@ export function Header() {
           <span className="text-xl font-bold text-primary">mDemy</span>
         </Link>
         <nav className="flex items-center gap-4">
-          <Link href="#how-it-works" passHref>
+          <Link href="/#how-it-works" passHref>
             <Button variant="ghost" className="text-sm font-medium">How It Works</Button>
           </Link>
-          <Link href="#projects" passHref>
+          <Link href="/projects" passHref>
             <Button variant="ghost" className="text-sm font-medium">Projects</Button>
           </Link>
-          <Link href="#testimonials" passHref>
+          <Link href="/#testimonials" passHref>
             <Button variant="ghost" className="text-sm font-medium">Testimonials</Button>
           </Link>
-          <Link href="#cta" passHref>
+          <Link href="/#cta" passHref>
             <Button size="sm" className="bg-accent hover:bg-accent/90 text-accent-foreground">
               Get Code
             </Button>

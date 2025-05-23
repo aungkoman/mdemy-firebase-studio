@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
@@ -17,13 +18,13 @@ export function HeroSection() {
           Access high-quality YouTube tutorials, ready-to-use source code, and diverse project listings. Perfect for students, junior developers, and business owners.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-          <Link href="#projects" passHref>
+          <Link href="/projects" passHref>
             <Button size="lg" className="w-full sm:w-auto text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
               Explore Projects
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>
-          <Link href="#how-it-works" passHref>
+          <Link href="/#how-it-works" passHref>
             <Button variant="outline" size="lg" className="w-full sm:w-auto text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
               Learn More
             </Button>
